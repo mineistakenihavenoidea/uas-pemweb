@@ -1,0 +1,178 @@
+CRITICAL - 2024-06-11 11:37:26 --> ErrorException: Undefined array key "category"
+[Method: GET, Route: collection]
+in APPPATH\Views\pages\collection.php on line 35.
+ 1 APPPATH\Views\pages\collection.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "category"', 'C:\\xampp\\htdocs\\igniter4\\app\\Views\\pages\\collection.php', 35)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\igniter4\\app\\Views\\pages\\collection.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('pages/collection', [], true)
+ 5 APPPATH\Controllers\CollectionController.php(21): view('pages/collection', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\CollectionController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CollectionController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-11 11:39:27 --> ErrorException: Undefined array key "category"
+[Method: GET, Route: collection]
+in APPPATH\Views\pages\collection.php on line 35.
+ 1 APPPATH\Views\pages\collection.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "category"', 'C:\\xampp\\htdocs\\igniter4\\app\\Views\\pages\\collection.php', 35)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\igniter4\\app\\Views\\pages\\collection.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('pages/collection', [], true)
+ 5 APPPATH\Controllers\CollectionController.php(22): view('pages/collection', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\CollectionController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CollectionController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-11 11:39:29 --> ErrorException: Undefined array key "category"
+[Method: GET, Route: collection]
+in APPPATH\Views\pages\collection.php on line 35.
+ 1 APPPATH\Views\pages\collection.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "category"', 'C:\\xampp\\htdocs\\igniter4\\app\\Views\\pages\\collection.php', 35)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\igniter4\\app\\Views\\pages\\collection.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('pages/collection', [], true)
+ 5 APPPATH\Controllers\CollectionController.php(22): view('pages/collection', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\CollectionController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CollectionController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-11 11:41:17 --> ErrorException: Undefined array key "categories"
+[Method: GET, Route: collection]
+in APPPATH\Views\pages\collection.php on line 35.
+ 1 APPPATH\Views\pages\collection.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "categories"', 'C:\\xampp\\htdocs\\igniter4\\app\\Views\\pages\\collection.php', 35)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\igniter4\\app\\Views\\pages\\collection.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('pages/collection', [], true)
+ 5 APPPATH\Controllers\CollectionController.php(22): view('pages/collection', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\CollectionController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CollectionController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-11 11:42:44 --> ErrorException: Undefined array key "category"
+[Method: GET, Route: collection]
+in APPPATH\Views\pages\collection.php on line 35.
+ 1 APPPATH\Views\pages\collection.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "category"', 'C:\\xampp\\htdocs\\igniter4\\app\\Views\\pages\\collection.php', 35)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\igniter4\\app\\Views\\pages\\collection.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('pages/collection', [], true)
+ 5 APPPATH\Controllers\CollectionController.php(24): view('pages/collection', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\CollectionController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CollectionController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-11 11:45:17 --> Error: Class "App\Models\Model" not found
+[Method: GET, Route: collection]
+in APPPATH\Models\GameModel.php on line 10.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(317): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\igniter4\\app\\Models\\GameModel.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\GameModel')
+ 4 APPPATH\Controllers\CollectionController.php(12): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\GameModel')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\CollectionController->index()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CollectionController))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-11 11:45:59 --> Error: Class "App\Models\Model" not found
+[Method: GET, Route: collection]
+in APPPATH\Models\GameModel.php on line 9.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(317): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\igniter4\\app\\Models\\GameModel.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\GameModel')
+ 4 APPPATH\Controllers\CollectionController.php(12): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\GameModel')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\CollectionController->index()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CollectionController))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-11 11:46:40 --> Error: Class "App\Models\Model" not found
+[Method: GET, Route: collection]
+in APPPATH\Models\GameModel.php on line 8.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(317): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\igniter4\\app\\Models\\GameModel.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\GameModel')
+ 4 APPPATH\Controllers\CollectionController.php(12): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\GameModel')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\CollectionController->index()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CollectionController))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-11 11:46:41 --> Error: Class "App\Models\Model" not found
+[Method: GET, Route: collection]
+in APPPATH\Models\GameModel.php on line 8.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(317): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\igniter4\\app\\Models\\GameModel.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(272): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\GameModel')
+ 4 APPPATH\Controllers\CollectionController.php(12): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\GameModel')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\CollectionController->index()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CollectionController))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-11 11:46:51 --> ErrorException: Undefined array key "category"
+[Method: GET, Route: collection]
+in APPPATH\Views\pages\collection.php on line 35.
+ 1 APPPATH\Views\pages\collection.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "category"', 'C:\\xampp\\htdocs\\igniter4\\app\\Views\\pages\\collection.php', 35)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\igniter4\\app\\Views\\pages\\collection.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('pages/collection', [], true)
+ 5 APPPATH\Controllers\CollectionController.php(24): view('pages/collection', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\CollectionController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CollectionController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-11 11:47:07 --> ErrorException: Undefined array key "category"
+[Method: GET, Route: collection]
+in APPPATH\Views\pages\collection.php on line 35.
+ 1 APPPATH\Views\pages\collection.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "category"', 'C:\\xampp\\htdocs\\igniter4\\app\\Views\\pages\\collection.php', 35)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\igniter4\\app\\Views\\pages\\collection.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('pages/collection', [], true)
+ 5 APPPATH\Controllers\CollectionController.php(24): view('pages/collection', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\CollectionController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CollectionController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-11 11:47:09 --> ErrorException: Undefined array key "category"
+[Method: GET, Route: collection]
+in APPPATH\Views\pages\collection.php on line 35.
+ 1 APPPATH\Views\pages\collection.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "category"', 'C:\\xampp\\htdocs\\igniter4\\app\\Views\\pages\\collection.php', 35)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\igniter4\\app\\Views\\pages\\collection.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('pages/collection', [], true)
+ 5 APPPATH\Controllers\CollectionController.php(24): view('pages/collection', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\CollectionController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CollectionController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-11 11:48:15 --> ErrorException: Undefined array key "category"
+[Method: GET, Route: collection]
+in APPPATH\Views\pages\collection.php on line 35.
+ 1 APPPATH\Views\pages\collection.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "category"', 'C:\\xampp\\htdocs\\igniter4\\app\\Views\\pages\\collection.php', 35)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\igniter4\\app\\Views\\pages\\collection.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('pages/collection', [], true)
+ 5 APPPATH\Controllers\CollectionController.php(24): view('pages/collection', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\CollectionController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CollectionController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))

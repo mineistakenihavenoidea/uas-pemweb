@@ -1,0 +1,169 @@
+CRITICAL - 2024-06-03 00:49:06 --> ErrorException: Undefined array key "opcache.enable"
+[Method: CLI, Route: phpini:check]
+in SYSTEMPATH\Security\CheckPhpIni.php on line 145.
+ 1 SYSTEMPATH\Security\CheckPhpIni.php(145): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "opcache.enable"', 'C:\\xampp\\htdocs\\igniter4\\system\\Security\\CheckPhpIni.php', 145)
+ 2 SYSTEMPATH\Security\CheckPhpIni.php(34): CodeIgniter\Security\CheckPhpIni::checkIni()
+ 3 SYSTEMPATH\Commands\Utilities\PhpIniCheck.php(73): CodeIgniter\Security\CheckPhpIni::run()
+ 4 SYSTEMPATH\CLI\Commands.php(70): CodeIgniter\Commands\Utilities\PhpIniCheck->run([])
+ 5 SYSTEMPATH\CLI\Console.php(48): CodeIgniter\CLI\Commands->run('phpini:check', [])
+ 6 SYSTEMPATH\Boot.php(338): CodeIgniter\CLI\Console->run()
+ 7 SYSTEMPATH\Boot.php(104): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+ 8 ROOTPATH\spark(84): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+CRITICAL - 2024-06-03 00:53:20 --> ErrorException: Undefined array key "opcache.enable"
+[Method: CLI, Route: phpini:check]
+in SYSTEMPATH\Security\CheckPhpIni.php on line 145.
+ 1 SYSTEMPATH\Security\CheckPhpIni.php(145): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "opcache.enable"', 'C:\\xampp\\htdocs\\igniter4\\system\\Security\\CheckPhpIni.php', 145)
+ 2 SYSTEMPATH\Security\CheckPhpIni.php(34): CodeIgniter\Security\CheckPhpIni::checkIni()
+ 3 SYSTEMPATH\Commands\Utilities\PhpIniCheck.php(73): CodeIgniter\Security\CheckPhpIni::run()
+ 4 SYSTEMPATH\CLI\Commands.php(70): CodeIgniter\Commands\Utilities\PhpIniCheck->run([])
+ 5 SYSTEMPATH\CLI\Console.php(48): CodeIgniter\CLI\Commands->run('phpini:check', [])
+ 6 SYSTEMPATH\Boot.php(338): CodeIgniter\CLI\Console->run()
+ 7 SYSTEMPATH\Boot.php(104): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+ 8 ROOTPATH\spark(84): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+CRITICAL - 2024-06-03 00:57:12 --> ErrorException: Undefined array key "opcache.enable"
+[Method: CLI, Route: phpini:check]
+in SYSTEMPATH\Security\CheckPhpIni.php on line 145.
+ 1 SYSTEMPATH\Security\CheckPhpIni.php(145): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "opcache.enable"', 'C:\\xampp\\htdocs\\igniter4\\system\\Security\\CheckPhpIni.php', 145)
+ 2 SYSTEMPATH\Security\CheckPhpIni.php(34): CodeIgniter\Security\CheckPhpIni::checkIni()
+ 3 SYSTEMPATH\Commands\Utilities\PhpIniCheck.php(73): CodeIgniter\Security\CheckPhpIni::run()
+ 4 SYSTEMPATH\CLI\Commands.php(70): CodeIgniter\Commands\Utilities\PhpIniCheck->run([])
+ 5 SYSTEMPATH\CLI\Console.php(48): CodeIgniter\CLI\Commands->run('phpini:check', [])
+ 6 SYSTEMPATH\Boot.php(338): CodeIgniter\CLI\Console->run()
+ 7 SYSTEMPATH\Boot.php(104): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+ 8 ROOTPATH\spark(84): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+CRITICAL - 2024-06-03 00:57:50 --> ErrorException: Undefined array key "opcache.enable"
+[Method: CLI, Route: phpini:check]
+in SYSTEMPATH\Security\CheckPhpIni.php on line 145.
+ 1 SYSTEMPATH\Security\CheckPhpIni.php(145): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "opcache.enable"', 'C:\\xampp\\htdocs\\igniter4\\system\\Security\\CheckPhpIni.php', 145)
+ 2 SYSTEMPATH\Security\CheckPhpIni.php(34): CodeIgniter\Security\CheckPhpIni::checkIni()
+ 3 SYSTEMPATH\Commands\Utilities\PhpIniCheck.php(73): CodeIgniter\Security\CheckPhpIni::run()
+ 4 SYSTEMPATH\CLI\Commands.php(70): CodeIgniter\Commands\Utilities\PhpIniCheck->run([])
+ 5 SYSTEMPATH\CLI\Console.php(48): CodeIgniter\CLI\Commands->run('phpini:check', [])
+ 6 SYSTEMPATH\Boot.php(338): CodeIgniter\CLI\Console->run()
+ 7 SYSTEMPATH\Boot.php(104): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+ 8 ROOTPATH\spark(84): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+CRITICAL - 2024-06-03 00:58:54 --> ErrorException: Undefined array key "opcache.enable"
+[Method: CLI, Route: phpini:check]
+in SYSTEMPATH\Security\CheckPhpIni.php on line 145.
+ 1 SYSTEMPATH\Security\CheckPhpIni.php(145): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "opcache.enable"', 'C:\\xampp\\htdocs\\igniter4\\system\\Security\\CheckPhpIni.php', 145)
+ 2 SYSTEMPATH\Security\CheckPhpIni.php(34): CodeIgniter\Security\CheckPhpIni::checkIni()
+ 3 SYSTEMPATH\Commands\Utilities\PhpIniCheck.php(73): CodeIgniter\Security\CheckPhpIni::run()
+ 4 SYSTEMPATH\CLI\Commands.php(70): CodeIgniter\Commands\Utilities\PhpIniCheck->run([])
+ 5 SYSTEMPATH\CLI\Console.php(48): CodeIgniter\CLI\Commands->run('phpini:check', [])
+ 6 SYSTEMPATH\Boot.php(338): CodeIgniter\CLI\Console->run()
+ 7 SYSTEMPATH\Boot.php(104): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+ 8 ROOTPATH\spark(84): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+CRITICAL - 2024-06-03 01:04:35 --> ErrorException: Undefined array key "opcache.enable"
+[Method: CLI, Route: phpini:check]
+in SYSTEMPATH\Security\CheckPhpIni.php on line 145.
+ 1 SYSTEMPATH\Security\CheckPhpIni.php(145): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "opcache.enable"', 'C:\\xampp\\htdocs\\igniter4\\system\\Security\\CheckPhpIni.php', 145)
+ 2 SYSTEMPATH\Security\CheckPhpIni.php(34): CodeIgniter\Security\CheckPhpIni::checkIni()
+ 3 SYSTEMPATH\Commands\Utilities\PhpIniCheck.php(73): CodeIgniter\Security\CheckPhpIni::run()
+ 4 SYSTEMPATH\CLI\Commands.php(70): CodeIgniter\Commands\Utilities\PhpIniCheck->run([])
+ 5 SYSTEMPATH\CLI\Console.php(48): CodeIgniter\CLI\Commands->run('phpini:check', [])
+ 6 SYSTEMPATH\Boot.php(338): CodeIgniter\CLI\Console->run()
+ 7 SYSTEMPATH\Boot.php(104): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+ 8 ROOTPATH\spark(84): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+CRITICAL - 2024-06-03 01:18:54 --> ErrorException: Undefined array key "opcache.enable"
+[Method: CLI, Route: phpini:check]
+in SYSTEMPATH\Security\CheckPhpIni.php on line 145.
+ 1 SYSTEMPATH\Security\CheckPhpIni.php(145): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "opcache.enable"', 'C:\\xampp\\htdocs\\igniter4\\system\\Security\\CheckPhpIni.php', 145)
+ 2 SYSTEMPATH\Security\CheckPhpIni.php(34): CodeIgniter\Security\CheckPhpIni::checkIni()
+ 3 SYSTEMPATH\Commands\Utilities\PhpIniCheck.php(73): CodeIgniter\Security\CheckPhpIni::run()
+ 4 SYSTEMPATH\CLI\Commands.php(70): CodeIgniter\Commands\Utilities\PhpIniCheck->run([])
+ 5 SYSTEMPATH\CLI\Console.php(48): CodeIgniter\CLI\Commands->run('phpini:check', [])
+ 6 SYSTEMPATH\Boot.php(338): CodeIgniter\CLI\Console->run()
+ 7 SYSTEMPATH\Boot.php(104): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+ 8 ROOTPATH\spark(84): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+CRITICAL - 2024-06-03 01:25:53 --> Error: Class "App\Controllers\CheckPhpIni" not found
+[Method: GET, Route: /]
+in APPPATH\Controllers\Home.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-03 01:28:34 --> ErrorException: Undefined array key "opcache.enable"
+[Method: GET, Route: /]
+in SYSTEMPATH\Security\CheckPhpIni.php on line 145.
+ 1 SYSTEMPATH\Security\CheckPhpIni.php(145): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "opcache.enable"', 'C:\\xampp\\htdocs\\igniter4\\system\\Security\\CheckPhpIni.php', 145)
+ 2 SYSTEMPATH\Security\CheckPhpIni.php(34): CodeIgniter\Security\CheckPhpIni::checkIni()
+ 3 APPPATH\Controllers\Home.php(11): CodeIgniter\Security\CheckPhpIni::run(false)
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-03 01:31:24 --> ErrorException: Undefined array key "opcache.enable"
+[Method: GET, Route: /]
+in SYSTEMPATH\Security\CheckPhpIni.php on line 145.
+ 1 SYSTEMPATH\Security\CheckPhpIni.php(145): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "opcache.enable"', 'C:\\xampp\\htdocs\\igniter4\\system\\Security\\CheckPhpIni.php', 145)
+ 2 SYSTEMPATH\Security\CheckPhpIni.php(34): CodeIgniter\Security\CheckPhpIni::checkIni()
+ 3 APPPATH\Controllers\Home.php(11): CodeIgniter\Security\CheckPhpIni::run(false)
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-03 01:31:27 --> ErrorException: Undefined array key "opcache.enable"
+[Method: GET, Route: /]
+in SYSTEMPATH\Security\CheckPhpIni.php on line 145.
+ 1 SYSTEMPATH\Security\CheckPhpIni.php(145): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "opcache.enable"', 'C:\\xampp\\htdocs\\igniter4\\system\\Security\\CheckPhpIni.php', 145)
+ 2 SYSTEMPATH\Security\CheckPhpIni.php(34): CodeIgniter\Security\CheckPhpIni::checkIni()
+ 3 APPPATH\Controllers\Home.php(11): CodeIgniter\Security\CheckPhpIni::run(false)
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-03 01:31:58 --> ErrorException: Undefined array key "opcache.enable"
+[Method: GET, Route: /]
+in SYSTEMPATH\Security\CheckPhpIni.php on line 145.
+ 1 SYSTEMPATH\Security\CheckPhpIni.php(145): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "opcache.enable"', 'C:\\xampp\\htdocs\\igniter4\\system\\Security\\CheckPhpIni.php', 145)
+ 2 SYSTEMPATH\Security\CheckPhpIni.php(34): CodeIgniter\Security\CheckPhpIni::checkIni()
+ 3 APPPATH\Controllers\Home.php(11): CodeIgniter\Security\CheckPhpIni::run(false)
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-03 02:51:13 --> ErrorException: Undefined array key "opcache.enable"
+[Method: CLI, Route: phpini:check]
+in SYSTEMPATH\Security\CheckPhpIni.php on line 145.
+ 1 SYSTEMPATH\Security\CheckPhpIni.php(145): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "opcache.enable"', 'C:\\xampp\\htdocs\\igniter4\\system\\Security\\CheckPhpIni.php', 145)
+ 2 SYSTEMPATH\Security\CheckPhpIni.php(34): CodeIgniter\Security\CheckPhpIni::checkIni()
+ 3 SYSTEMPATH\Commands\Utilities\PhpIniCheck.php(73): CodeIgniter\Security\CheckPhpIni::run()
+ 4 SYSTEMPATH\CLI\Commands.php(70): CodeIgniter\Commands\Utilities\PhpIniCheck->run([])
+ 5 SYSTEMPATH\CLI\Console.php(48): CodeIgniter\CLI\Commands->run('phpini:check', [])
+ 6 SYSTEMPATH\Boot.php(338): CodeIgniter\CLI\Console->run()
+ 7 SYSTEMPATH\Boot.php(104): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+ 8 ROOTPATH\spark(84): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+CRITICAL - 2024-06-03 02:51:42 --> ErrorException: Undefined array key "opcache.enable"
+[Method: GET, Route: /]
+in SYSTEMPATH\Security\CheckPhpIni.php on line 145.
+ 1 SYSTEMPATH\Security\CheckPhpIni.php(145): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "opcache.enable"', 'C:\\xampp\\htdocs\\igniter4\\system\\Security\\CheckPhpIni.php', 145)
+ 2 SYSTEMPATH\Security\CheckPhpIni.php(34): CodeIgniter\Security\CheckPhpIni::checkIni()
+ 3 APPPATH\Controllers\Home.php(11): CodeIgniter\Security\CheckPhpIni::run(false)
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\Commands\Server\rewrite.php(49): require_once('C:\\xampp\\htdocs\\igniter4\\public\\index.php')
+CRITICAL - 2024-06-03 02:55:08 --> ErrorException: Undefined array key "opcache.enable"
+[Method: CLI, Route: phpini:check]
+in SYSTEMPATH\Security\CheckPhpIni.php on line 145.
+ 1 SYSTEMPATH\Security\CheckPhpIni.php(145): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "opcache.enable"', 'C:\\xampp\\htdocs\\igniter4\\system\\Security\\CheckPhpIni.php', 145)
+ 2 SYSTEMPATH\Security\CheckPhpIni.php(34): CodeIgniter\Security\CheckPhpIni::checkIni()
+ 3 SYSTEMPATH\Commands\Utilities\PhpIniCheck.php(73): CodeIgniter\Security\CheckPhpIni::run()
+ 4 SYSTEMPATH\CLI\Commands.php(70): CodeIgniter\Commands\Utilities\PhpIniCheck->run([])
+ 5 SYSTEMPATH\CLI\Console.php(48): CodeIgniter\CLI\Commands->run('phpini:check', [])
+ 6 SYSTEMPATH\Boot.php(338): CodeIgniter\CLI\Console->run()
+ 7 SYSTEMPATH\Boot.php(104): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+ 8 ROOTPATH\spark(84): CodeIgniter\Boot::bootSpark(Object(Config\Paths))

@@ -1,0 +1,243 @@
+ERROR - 2024-06-09 06:06:53 --> mysqli_sql_exception: Table 'db_pemweb.games' doesn't exist in C:\xampp\htdocs\igniter4\system\Database\MySQLi\Connection.php:308
+Stack trace:
+#0 C:\xampp\htdocs\igniter4\system\Database\MySQLi\Connection.php(308): mysqli->query('SELECT COUNT(*)...', 0)
+#1 C:\xampp\htdocs\igniter4\system\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 C:\xampp\htdocs\igniter4\system\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 C:\xampp\htdocs\igniter4\system\Database\BaseBuilder.php(1713): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 C:\xampp\htdocs\igniter4\system\Model.php(667): CodeIgniter\Database\BaseBuilder->countAllResults(false)
+#5 C:\xampp\htdocs\igniter4\system\BaseModel.php(1284): CodeIgniter\Model->countAllResults(false)
+#6 C:\xampp\htdocs\igniter4\app\Controllers\CollectionController.php(19): CodeIgniter\BaseModel->paginate(10, 'default', 1)
+#7 C:\xampp\htdocs\igniter4\system\CodeIgniter.php(933): App\Controllers\CollectionController->index()
+#8 C:\xampp\htdocs\igniter4\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CollectionController))
+#9 C:\xampp\htdocs\igniter4\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\igniter4\system\Boot.php(312): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\igniter4\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\xampp\htdocs\igniter4\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 {main}
+CRITICAL - 2024-06-09 06:06:53 --> CodeIgniter\Database\Exceptions\DatabaseException: Table 'db_pemweb.games' doesn't exist
+[Method: GET, Route: collection]
+in SYSTEMPATH\Database\BaseConnection.php on line 676.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1713): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `games`', [], false)
+ 2 SYSTEMPATH\Model.php(667): CodeIgniter\Database\BaseBuilder->countAllResults(false)
+ 3 SYSTEMPATH\BaseModel.php(1284): CodeIgniter\Model->countAllResults(false)
+ 4 APPPATH\Controllers\CollectionController.php(19): CodeIgniter\BaseModel->paginate(10, 'default', 1)
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\CollectionController->index()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CollectionController))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-09 06:06:53 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Table 'db_pemweb.games' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 313.
+ 1 SYSTEMPATH\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*) AS `numrows`
+FROM `games`')
+ 2 SYSTEMPATH\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*) AS `numrows`
+FROM `games`')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1713): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `games`', [], false)
+ 4 SYSTEMPATH\Model.php(667): CodeIgniter\Database\BaseBuilder->countAllResults(false)
+ 5 SYSTEMPATH\BaseModel.php(1284): CodeIgniter\Model->countAllResults(false)
+ 6 APPPATH\Controllers\CollectionController.php(19): CodeIgniter\BaseModel->paginate(10, 'default', 1)
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\CollectionController->index()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CollectionController))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-09 06:06:53 --> [Caused by] mysqli_sql_exception: Table 'db_pemweb.games' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 308.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(308): mysqli->query('SELECT COUNT(*) AS `numrows`
+FROM `games`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*) AS `numrows`
+FROM `games`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*) AS `numrows`
+FROM `games`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1713): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows`
+FROM `games`', [], false)
+ 5 SYSTEMPATH\Model.php(667): CodeIgniter\Database\BaseBuilder->countAllResults(false)
+ 6 SYSTEMPATH\BaseModel.php(1284): CodeIgniter\Model->countAllResults(false)
+ 7 APPPATH\Controllers\CollectionController.php(19): CodeIgniter\BaseModel->paginate(10, 'default', 1)
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\CollectionController->index()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CollectionController))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-09 06:10:51 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "collection.php"
+[Method: GET, Route: collection]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('collection.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('collection', [], true)
+ 3 APPPATH\Controllers\CollectionController.php(23): view('collection', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\CollectionController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CollectionController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-09 06:17:21 --> Error: Undefined constant "App\Controllers\view"
+[Method: GET, Route: collection]
+in APPPATH\Controllers\CollectionController.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\CollectionController->index()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CollectionController))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-06-09 12:31:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-09 12:31:32 --> Error: Call to undefined function set_value()
+[Method: GET, Route: games/create]
+in APPPATH\Views\games\create.php on line 19.
+ 1 SYSTEMPATH\View\View.php(234): include()
+ 2 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('games/create', [], true)
+ 4 APPPATH\Controllers\GameController.php(35): view('games/create')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\GameController->create()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GameController))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2024-06-09 12:36:19 --> mysqli_sql_exception: Unknown column 'image_path' in 'field list' in C:\xampp\htdocs\igniter4\system\Database\MySQLi\Connection.php:308
+Stack trace:
+#0 C:\xampp\htdocs\igniter4\system\Database\MySQLi\Connection.php(308): mysqli->query('INSERT INTO `ga...', 0)
+#1 C:\xampp\htdocs\igniter4\system\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ga...')
+#2 C:\xampp\htdocs\igniter4\system\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ga...')
+#3 C:\xampp\htdocs\igniter4\system\Database\BaseBuilder.php(2325): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ga...', Array, false)
+#4 C:\xampp\htdocs\igniter4\system\Model.php(383): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\igniter4\system\BaseModel.php(840): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\igniter4\system\Model.php(791): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\igniter4\system\BaseModel.php(751): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\igniter4\app\Controllers\GameController.php(50): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\igniter4\system\CodeIgniter.php(933): App\Controllers\GameController->store()
+#10 C:\xampp\htdocs\igniter4\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GameController))
+#11 C:\xampp\htdocs\igniter4\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\igniter4\system\Boot.php(312): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp\htdocs\igniter4\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#14 C:\xampp\htdocs\igniter4\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#15 {main}
+CRITICAL - 2024-06-09 12:36:19 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'image_path' in 'field list'
+[Method: POST, Route: games/store]
+in SYSTEMPATH\Database\BaseConnection.php on line 676.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2325): CodeIgniter\Database\BaseConnection->query('INSERT INTO `games` (`title`, `description`, `image_path`) VALUES (:title:, :description:, :image_path:)', [...], false)
+ 2 SYSTEMPATH\Model.php(383): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(791): CodeIgniter\BaseModel->insert([...], false)
+ 5 SYSTEMPATH\BaseModel.php(751): CodeIgniter\Model->insert([...], false)
+ 6 APPPATH\Controllers\GameController.php(50): CodeIgniter\BaseModel->save([...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\GameController->store()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GameController))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-09 12:36:19 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'image_path' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 313.
+ 1 SYSTEMPATH\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `games` (`title`, `description`, `image_path`) VALUES (\'smt v vengeance\', \'smt series\', \'uploads/images/1717936579_abde817843a8c83ae106.jpg\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `games` (`title`, `description`, `image_path`) VALUES (\'smt v vengeance\', \'smt series\', \'uploads/images/1717936579_abde817843a8c83ae106.jpg\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2325): CodeIgniter\Database\BaseConnection->query('INSERT INTO `games` (`title`, `description`, `image_path`) VALUES (:title:, :description:, :image_path:)', [...], false)
+ 4 SYSTEMPATH\Model.php(383): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(791): CodeIgniter\BaseModel->insert([...], false)
+ 7 SYSTEMPATH\BaseModel.php(751): CodeIgniter\Model->insert([...], false)
+ 8 APPPATH\Controllers\GameController.php(50): CodeIgniter\BaseModel->save([...])
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\GameController->store()
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GameController))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-09 12:36:19 --> [Caused by] mysqli_sql_exception: Unknown column 'image_path' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 308.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(308): mysqli->query('INSERT INTO `games` (`title`, `description`, `image_path`) VALUES (\'smt v vengeance\', \'smt series\', \'uploads/images/1717936579_abde817843a8c83ae106.jpg\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `games` (`title`, `description`, `image_path`) VALUES (\'smt v vengeance\', \'smt series\', \'uploads/images/1717936579_abde817843a8c83ae106.jpg\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `games` (`title`, `description`, `image_path`) VALUES (\'smt v vengeance\', \'smt series\', \'uploads/images/1717936579_abde817843a8c83ae106.jpg\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2325): CodeIgniter\Database\BaseConnection->query('INSERT INTO `games` (`title`, `description`, `image_path`) VALUES (:title:, :description:, :image_path:)', [...], false)
+ 5 SYSTEMPATH\Model.php(383): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(791): CodeIgniter\BaseModel->insert([...], false)
+ 8 SYSTEMPATH\BaseModel.php(751): CodeIgniter\Model->insert([...], false)
+ 9 APPPATH\Controllers\GameController.php(50): CodeIgniter\BaseModel->save([...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\GameController->store()
+11 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GameController))
+12 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2024-06-09 13:14:25 --> mysqli_sql_exception: Unknown column 'image_path' in 'field list' in C:\xampp\htdocs\igniter4\system\Database\MySQLi\Connection.php:308
+Stack trace:
+#0 C:\xampp\htdocs\igniter4\system\Database\MySQLi\Connection.php(308): mysqli->query('INSERT INTO `ga...', 0)
+#1 C:\xampp\htdocs\igniter4\system\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ga...')
+#2 C:\xampp\htdocs\igniter4\system\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ga...')
+#3 C:\xampp\htdocs\igniter4\system\Database\BaseBuilder.php(2325): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ga...', Array, false)
+#4 C:\xampp\htdocs\igniter4\system\Model.php(383): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\igniter4\system\BaseModel.php(840): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\igniter4\system\Model.php(791): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\igniter4\system\BaseModel.php(751): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\igniter4\app\Controllers\GameController.php(51): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\igniter4\system\CodeIgniter.php(933): App\Controllers\GameController->store()
+#10 C:\xampp\htdocs\igniter4\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GameController))
+#11 C:\xampp\htdocs\igniter4\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\igniter4\system\Boot.php(312): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp\htdocs\igniter4\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#14 C:\xampp\htdocs\igniter4\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#15 {main}
+CRITICAL - 2024-06-09 13:14:25 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'image_path' in 'field list'
+[Method: POST, Route: games/store]
+in SYSTEMPATH\Database\BaseConnection.php on line 676.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2325): CodeIgniter\Database\BaseConnection->query('INSERT INTO `games` (`title`, `description`, `category_id`, `image_path`) VALUES (:title:, :description:, :category_id:, :image_path:)', [...], false)
+ 2 SYSTEMPATH\Model.php(383): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(791): CodeIgniter\BaseModel->insert([...], false)
+ 5 SYSTEMPATH\BaseModel.php(751): CodeIgniter\Model->insert([...], false)
+ 6 APPPATH\Controllers\GameController.php(51): CodeIgniter\BaseModel->save([...])
+ 7 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\GameController->store()
+ 8 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GameController))
+ 9 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+12 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-09 13:14:25 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'image_path' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 313.
+ 1 SYSTEMPATH\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `games` (`title`, `description`, `category_id`, `image_path`) VALUES (\'smt v vengeance\', \'smt series\', \'1\', \'uploads/images/1717938865_0844ac33f88929bc6cb2.jpg\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `games` (`title`, `description`, `category_id`, `image_path`) VALUES (\'smt v vengeance\', \'smt series\', \'1\', \'uploads/images/1717938865_0844ac33f88929bc6cb2.jpg\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2325): CodeIgniter\Database\BaseConnection->query('INSERT INTO `games` (`title`, `description`, `category_id`, `image_path`) VALUES (:title:, :description:, :category_id:, :image_path:)', [...], false)
+ 4 SYSTEMPATH\Model.php(383): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(791): CodeIgniter\BaseModel->insert([...], false)
+ 7 SYSTEMPATH\BaseModel.php(751): CodeIgniter\Model->insert([...], false)
+ 8 APPPATH\Controllers\GameController.php(51): CodeIgniter\BaseModel->save([...])
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\GameController->store()
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GameController))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-09 13:14:25 --> [Caused by] mysqli_sql_exception: Unknown column 'image_path' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 308.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(308): mysqli->query('INSERT INTO `games` (`title`, `description`, `category_id`, `image_path`) VALUES (\'smt v vengeance\', \'smt series\', \'1\', \'uploads/images/1717938865_0844ac33f88929bc6cb2.jpg\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `games` (`title`, `description`, `category_id`, `image_path`) VALUES (\'smt v vengeance\', \'smt series\', \'1\', \'uploads/images/1717938865_0844ac33f88929bc6cb2.jpg\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `games` (`title`, `description`, `category_id`, `image_path`) VALUES (\'smt v vengeance\', \'smt series\', \'1\', \'uploads/images/1717938865_0844ac33f88929bc6cb2.jpg\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2325): CodeIgniter\Database\BaseConnection->query('INSERT INTO `games` (`title`, `description`, `category_id`, `image_path`) VALUES (:title:, :description:, :category_id:, :image_path:)', [...], false)
+ 5 SYSTEMPATH\Model.php(383): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(791): CodeIgniter\BaseModel->insert([...], false)
+ 8 SYSTEMPATH\BaseModel.php(751): CodeIgniter\Model->insert([...], false)
+ 9 APPPATH\Controllers\GameController.php(51): CodeIgniter\BaseModel->save([...])
+10 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\GameController->store()
+11 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GameController))
+12 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+15 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-09 13:16:01 --> Error: Call to a member function getRandomName() on null
+[Method: POST, Route: games/store]
+in APPPATH\Controllers\GameController.php on line 95.
+ 1 APPPATH\Controllers\GameController.php(48): App\Controllers\GameController->uploadImage()
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\GameController->store()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\GameController))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
